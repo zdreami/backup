@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HongLouBook.exe" version="1.0.0.1" publicKeyToken="7289f64b6a30e33a" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="20160613012104170.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HongLouBook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="HongLouBook.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HongLouBook.exe" size="46592">
+      <assemblyIdentity name="HongLouBook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CLx1sy81kzSjPOrL/E/yN7j+p6M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="1312768">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.101.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>NoJS9xGc5553yEz3sNWb07mtv0I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="20160613012104170.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7K2Y+QmeTdkw0xWBw29Qn4m7vqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Book\《曹雪芹》.txt" size="2212">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OLREAZLi68Rzwaq+L9dOeWtm6Jg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hl.txt" size="343710">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ffibkGhn+6gs3/rf4ePeumSZVkY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZDREAM\zdream" issuerKeyHash="cdc86af8fa5b8901bcfc81163326f826963250db" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>b2QCOfh2ndBeDyW6QKmZy7fk0/E=</DigestValue></Reference></SignedInfo><SignatureValue>kvPtnloetXokh/N2CcNC3PYxKSRNr147q+fOKfAM299s7hSLmDgbah4z4JhRzMkg4I+V5tzBCiBtSVTDJePupUA+8zvyvpyZrECiQtcgLatGQM4+tQbluxWl1nnPfgEXoPJnR8ykGtx0rZyu32gfFKs/yTN13OMf0CkVFHogGm4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0YbxbYIGsmms+KOaXQF73Kc9hrdLLqLMNoZxmEK/CU9k99hTP1ikPvKk/xAWarhEiz/kkCUyMRi7hMNGLw6b4KjCtrNSnwOaTXV6BRXz+Q4n0DcPQ2rBNk87DNlTWtcTnFIqkEHIXecirvPd1YVF6eRUHYnFTuGee7onrJEdXFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f1d3e4b7cb99a940ba250f5ed09d76f83902646f" Description="" Url=""><as:assemblyIdentity name="HongLouBook.exe" version="1.0.0.1" publicKeyToken="7289f64b6a30e33a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZDREAM\zdream</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bGofHH8Eu3s64Oc8k4tmUmtBgko=</DigestValue></Reference></SignedInfo><SignatureValue>mGB+lj/9tXBRDT/WgzltJTwKmF/qaMU6XE7Y0HmaFrPdiS6bTsopoP28qmiS4Daq9+SPS/35UGzcOlmQu2kGMkUdmVK3GlMaTnk1WEaSCzAMsCQgggbX0U8KqDhJ1UMTGQ0+gdG34E5Cwovr32PfH7ySF2p7g8Hxn040g7e9VNk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0YbxbYIGsmms+KOaXQF73Kc9hrdLLqLMNoZxmEK/CU9k99hTP1ikPvKk/xAWarhEiz/kkCUyMRi7hMNGLw6b4KjCtrNSnwOaTXV6BRXz+Q4n0DcPQ2rBNk87DNlTWtcTnFIqkEHIXecirvPd1YVF6eRUHYnFTuGee7onrJEdXFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQdkO9X9vWIZBO9EyJq05vLzANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAWgBEAFIARQBBAE0AXAB6AGQAcgBlAGEAbTAeFw0xNjA1MjMxMjA3MTdaFw0xNzA1MjMxODA3MTdaMCUxIzAhBgNVBAMeGgBaAEQAUgBFAEEATQBcAHoAZAByAGUAYQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRhvFtggayaaz4o5pdAXvcpz2Gt0suosw2hnGYQr8JT2T32FM/WKQ+8qT/EBZquESLP+SQJTIxGLuEw0YvDpvgqMK2s1KfA5pNdXoFFfP5DifQNw9DasE2TzsM2VNa1xOcUiqQQchd5yKu893VhUXp5FQdicVO4Z57uieskR1cUwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBALkFTWQBqXFg7APf7aiJR2Jj65FgY01bdp2TCttq9+iQo1UFaXSoq5ts/Xn+Ir7giUfVHtZ/kXww2jcaKDfnzLmrnoqvzvu4NIRd5UqqSz+zWfcEZTl7R3ndXQ6ymRD+GxAwpTBiRQ4zkiZNBMBxEweE0pC0L0LXbH6AadflCvTX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
