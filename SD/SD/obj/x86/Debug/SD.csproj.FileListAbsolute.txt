@@ -1,0 +1,7 @@
+C:\Users\zdream\Documents\visual studio 2010\Projects\SD\SD\obj\x86\Debug\SD.Form1.resources
+C:\Users\zdream\Documents\visual studio 2010\Projects\SD\SD\obj\x86\Debug\SD.csproj.GenerateResource.Cache
+C:\Users\zdream\documents\visual studio 2010\Projects\SD\SD\bin\Debug\SD.exe
+C:\Users\zdream\documents\visual studio 2010\Projects\SD\SD\bin\Debug\SD.pdb
+C:\Users\zdream\documents\visual studio 2010\Projects\SD\SD\obj\x86\Debug\SD.Properties.Resources.resources
+C:\Users\zdream\documents\visual studio 2010\Projects\SD\SD\obj\x86\Debug\SD.exe
+C:\Users\zdream\documents\visual studio 2010\Projects\SD\SD\obj\x86\Debug\SD.pdb
